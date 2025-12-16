@@ -16,7 +16,8 @@ AIzaSyCxqPXShw1zg2wjdtoaOEoQlmkP_S36WlM
 """
 
 # 1. 設定與清理 API Key
-MY_API_KEY = os.environ.getgenai.configure(api_key=MY_API_KEY)
+MY_API_KEY = os.environ.
+getgenai.configure(api_key=MY_API_KEY)
 
 # 2. 自動模型選擇系統
 print("🔍 正在自動搜尋您的可用模型...")
@@ -124,4 +125,5 @@ def analyze():
 
 if __name__ == '__main__':
     print("🚀 網站啟動中...")
+
     app.run(debug=True, port=5000)
